@@ -1,13 +1,13 @@
-#Processing og ControlP5 workshop
+# Processing og ControlP5 workshop
 
 Formål: Formålet med denne workshop er at få Control P5-biblioteket til at fungere med Processing 2.2.1 og 3.x, samt lære, hvordan man kan bruge biblioteket i sine projekter.
 
-###Hvad er ControlP5?
+### Hvad er ControlP5?
 ControlP5 er et Processing-bibliotek, der gør det nemt at bygge GUI-elementer ind i sine sketches. Der er adgang til en lang række tekstfelter, knapper, sliders, lister o.m.a.
 
 Det er muligt at kode den slags ting selv, selvfølgelig, men ControlP5 er en genvej, der gør at du hurtigere kan få bygget den del af dit projekt.
 
-###Inden du starter
+### Inden du starter
 Det eneste du behøver for at bruge ControlP5 er Processing og ControlP5-biblioteket:
 - [Processing](https://processing.org)
 - [ControlP5](http://www.sojamo.de/libraries/controlP5)
@@ -16,15 +16,15 @@ På ControlP5's [Github side](https://github.com/sojamo/controlp5) er der en mas
 
 I skrivende stund er ControlP5 kun testet med Processing 2.2.1, men det virker typisk også fint i 3.0.x, så prøv med det først, hvis du allerede bruger en af disse versioner.
 
-###Installation
+### Installation
 ControlP5 kan enten installeres på gammeldags manér, ved at downloade biblioteket og kopiere det til Processings 'libraries'-mappe (og huske at genstarte Processing efter dette - [læs guide her](https://github.com/processing/processing/wiki/How-to-Install-a-Contributed-Library#manual-install) - eller du kan bruge den indbyggede Package Manager ved at vælge Sketch > Import Library > Add Library... og herefter søge efter ControlP5 og installere med et klik på knappen.
 
-###I gang med ControlP5
+### I gang med ControlP5
 ControlP5 har en lang række indbyggede eksempler, som du bør åbne og sikre at de kan afvikles i din version af Processing. Når det lykkes er du klar til  at begynde at bygge dine egne interfaces.
 
 Herunder er et par eksempler på hvad du kan bruge ControlP5 til.
 
-**Styre opacity på et billede med en slider eller en knob**
+#### Styre opacity på et billede med en slider eller en knob
 I dette eksempel kan du styre gennemsigtighed på et billede med en ControlP5 slider eller en ControlP5 knob.
 
 ```
@@ -74,7 +74,7 @@ void draw() {
 }
 ```
 
-**Styre hastigheden på en videofil**
+#### Styre hastigheden på en videofil
 Samme model kan bruges til at styre hastigheden på afspilningen af en videofil.
 
 ```
@@ -127,7 +127,7 @@ void movieEvent(Movie m) {
 }
 ```
 
-**Ændre mængden af objekter på et canvas**
+#### Ændre mængden af objekter på et canvas
 I dette eksempel ændrer vi mængden af cirkler på et canvas alt efter hvad slideren viser.
 
 ```
